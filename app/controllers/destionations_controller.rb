@@ -1,0 +1,2 @@
+class DestionationsController < ApplicationController
+end 

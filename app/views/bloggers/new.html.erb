@@ -1,0 +1,11 @@
+<h1>Welcome to the blog!</h1>
+<%= form_tag bloggers_path do%>
+    <label> Name: </label>
+    <%= text_field_tag :'blogger[name]'%><br><br>
+    <label> Age: </label>
+    <%= text_field_tag :'blogger[age]'%><br><br>
+    <label> Bio: </label> <br>
+    <%= text_area_tag :'blogger[bio]'%><br>
+
+    <input type='submit' value='Create Blogger'>
+<% end %>
